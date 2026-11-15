@@ -1,0 +1,31 @@
+section{
+    background-color:lightblue;
+    height: 500px;
+    width: 500px;
+    border: 2px solid;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 60px 60px 60px;
+    gap: 20px;
+    column-gap: 30px;
+    row-gap: 20px; 
+    /* justify-content: center;
+    align-content: center;
+     justify-content: flex-end;
+    align-content: flex-end; 
+    justify-content: flex-start;
+    align-content: center;  */
+     /* grid-template-columns: auto auto auto; 
+     grid-template-columns: repeat(3,1fr);*/
+     place-content: center center;
+     place-content: end center;
+
+
+}
+section div{
+    border: 2px solid;
+    background-color:crimson;
+    height: 50px;
+    width: 50px;
+    
+}

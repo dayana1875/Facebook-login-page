@@ -1,0 +1,17 @@
+<!-- 1. what is the difference between display ,visibulity hiddren?
+it will hidden the element,remove the page layout.
+visibulity: it will hiddern the element but it keeps space between the pagelayout. -->
+
+<!-- 2.what is the margin ,padding?
+margin the outof the box.padding the inside the box.the gap between mrgin and padding. -->
+
+<!-- 3.what is media quiers?
+it is responises of the webpage. -->
+
+<!-- 4.what is semantic tags?
+they are sevral types of semantic tags.
+hedder,footer,main.nav,aside,article,figare,fix caption,section,summary,time. -->
+
+5. what is gradiance?
+gradince is smooth transiotion between two are morre colors.it is used to without any image
+linear,conical,radical

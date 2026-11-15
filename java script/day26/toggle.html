@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+nav{
+    border: 2px solid;
+    height: 50px;
+    background-color: aqua;
+    ol{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height:50px;
+        list-style: none;
+    }
+}
+form{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid;
+    display: none;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3,150px);
+    gap:20px;
+    div{
+        border: 2px solid;
+        height: 150px;
+        width: 150px;
+        /* margin: 10px; */
+    }
+}
+aside div{
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+}
+</style>
+</head>
+<body>
+    <nav>
+        <ol>
+            <li>home</li>
+            <li>login</li>
+            <li id="reg">register</li>
+            <li id="cart">cart</li>
+        </ol>
+    </nav>
+    <form action="">
+        <h1>register</h1>
+    </form>
+    <section>
+        <div>
+            <span>1</span>
+            <button id="d1">Add to cart</button>
+        </div>
+        <div>
+            <span>2</span>
+            <button id="d2">Add to cart</button>
+        </div>
+        <div>
+            <span>3</span>
+            <button id="d3">Add to cart</button>
+        </div>
+        <div>
+            <span>4</span>
+            <button id="d4">Add to cart</button>
+        </div>
+        <div>
+            <span>5</span>
+            <button id="d5">Add to cart</button>
+        </div>
+        <div>
+            <span>6</span>
+            <button id="d6">Add to cart</button>
+        </div>
+    </section>
+    <aside>
+        <button>x</button>
+    </aside>
+     <script src="./toggle.js"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+*{
+     margin: 0%;
+     padding:0%;
+     box-sizing: border-box;
+     background-color: blue;
+}
+
+nav{
+    color: palevioletred;
+    left: 20%;
+    font-size: large;
+    margin-left: 3%;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+#f1{
+    width: 30px;
+    height: 30px;
+    /* margin-left: 3%; */
+}
+ol{
+    /* border: 2px solid; */
+    /* width: 800px; */
+    list-style: none;
+    display: flex;
+    gap: 18px;    
+    position: relative;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+   
+}#a1{
+    height: 600px;
+    /* border: 2px solid ; */
+    position: relative;
+    top: 10%;
+}
+#d1{
+    color:palevioletred;
+    
+}
+section{
+    /* border: 2px solid;    */
+    height: 60px;
+    color: white;
+    margin-left: 3%;
+}
+ul{
+    /* border: 2px solid; */
+    color: white;
+    display: flex;
+    list-style: none;
+    color: palevioletred;
+    gap: 5%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: large;
+
+}
+#s1{
+    /* border: 2px solid; */
+    color: palevioletred;
+    gap: 30px;
+    justify-content: space-between;
+    
+}
+.s2{
+    /* border: 2px solid; */
+    left:2%;
+    list-style: none;
+    flex-direction: column;
+    line-height: 3%;
+}
+.s3{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    list-style: none;
+    flex-direction: column;
+    line-height: 3%;
+}
+.s4{
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    list-style: none;
+    flex-direction: column;
+    line-height: 5%;
+}
+.s5{
+    position: absolute;
+    top: 11%;
+    right: 40%;
+    list-style: none;
+    flex-direction: column;
+    line-height: 5%;
+}
+.s6{
+    position: absolute;
+    top: 12%;
+    right: 20%;
+    list-style: none;
+    flex-direction: column;
+    line-height: 8%;
+}
+#q1{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 15px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+
+}
+footer{
+    /* border: 2px solid; */
+    width: 500px;
+    height: 300px;
+    margin-left: 28%;
+    margin-top: 10%;
+    position: relative;
+}
+#d9{
+    width: 140px;
+    height: 50px;
+    margin-left: 30%;
+    margin-top: 15%;
+    
+}
+#d8{
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 24.5%;
+    right: 10%;
+}
+#f2{
+    position: absolute;
+    right: 17.5%;
+    top: 2%;
+}
+#f3{
+    position: absolute;
+    right: 14%;
+    top: 2%;
+}
+#f4{
+    position: absolute;
+    right: 10.5%;
+    top: 2%;
+}
+#f5{
+    position: absolute;
+    right: 7%;
+    top: 2%;
+}

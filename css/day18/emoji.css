@@ -1,0 +1,35 @@
+/* section{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+div{
+    border: 2px solid;
+    height:20px ;
+    width:20px;
+    border-radius: 50%;
+    display: flex;
+    margin-left:20%; 
+    margin-top: 20%;
+
+} */
+img{
+    height: 100px;
+    width:100px;
+    animation-name: heart;
+    animation-iteration-count: infinite;
+    margin-right: 30%;
+    margin-left:-20%;
+
+}
+@keyframes heart{
+    0%{
+        transform:scale(1);
+    }
+    50%{
+        transform: translate(1.5);
+    }
+}    
+
+

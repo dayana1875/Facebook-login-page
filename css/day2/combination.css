@@ -1,0 +1,20 @@
+ /*desecendent selector*/ 
+  div h1{
+    background-color: aqua;
+}
+/*child select*/
+div>h1{
+    background-color: blueviolet;
+}
+/*adjecent selectior*/
+div>h1+h2{
+   background-color:cadetblue ;
+}
+div>section>h1+h2{
+    background-color:crimson;
+}
+div>h3~h2{
+    background-color: hotpink;
+}
+
+

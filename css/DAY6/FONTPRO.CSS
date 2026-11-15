@@ -1,0 +1,21 @@
+P{
+    /* font-size: 40PX; */
+    /* font-weight: 700; */
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+         font-style: italic;
+         font-style: oblique;
+         font-style: normal;
+         font-variant: small-caps;
+         font-variant: normal;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border:2px solid;
+    background-color: blueviolet;
+    background-color: rgb(80, 70,80);
+    background-color: rgba(49, 108,79, 225);
+    background-color: hsl(51, 30%,46%);
+    background-color: hsla(60, 40%, 56%, 0.9);
+    background-color:#eff008 ;
+}

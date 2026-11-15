@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+main{
+     border: 2px solid;
+    height: 1500px;
+    width: 2000px; 
+    background-image:url(./asserts/img.jpeg) ;
+}
+form{
+    border: 2px solid white ;
+    height:600px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.288);
+    margin: auto;
+    color:white;
+    text-align: center;
+}
+h2{
+    height: 65px;
+    font-size: 45px;
+}
+

@@ -1,0 +1,342 @@
+main{
+    background-image: url("./1st.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    height: 600px;
+    margin-top: 10%;
+    /* position: relative; */
+    /* width: 100%; */
+}
+img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0%;
+    margin-top: 1%;
+    left: 10%;
+
+}
+#d1{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    font-size:small;
+   
+}
+#d2{
+    position:absolute;
+    top: 10%;
+    left: 50%;
+    font-size: small;
+}
+#d3{
+    position: absolute;
+    top: 10%;
+    right: 40%;
+    font-size: small;
+}
+#d4{
+    position: absolute;
+    top: 10%;
+    right: 31%;
+    font-size: small;
+}
+#d5{
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    font-size: small;
+}
+#d6{
+    position: absolute;
+    top: 10%;
+    right: 16%;
+    font-size: small;
+}
+#d7{
+    position: absolute;
+    top: 10%;
+    right: 9%;
+    font-size: small;
+}
+#d8{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    border: 2px solid white;
+    height: 30px;
+    width: 630px;
+    padding: 1%;
+    position: absolute;
+    left: 8%;
+    top: 35%;
+    background-color:aliceblue;
+    filter: opacity(0.6);
+    font-style:italic;
+    letter-spacing: 8px;
+}
+aside{
+    border: 2px solid white;
+    height: 40px;
+    width: 630px;
+    padding: 1%;
+    margin: 1%;
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    background-color:aliceblue;
+    filter: opacity(0.6);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 25px;
+}
+#d9{
+    text-indent: 10%;
+    margin-top: 40px;
+}
+#s1{
+    line-height: 25px;
+    margin-left: 10%;
+    font-size: large;
+}
+.sec{
+    background-image: url("./2nd.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    height: 600px;
+    /* width: 80%; */
+    position: relative;
+    margin-top: 10%;
+
+}
+h3{
+    border: 2px solid whitesmoke;
+    height: 70px;
+    width: 670px;
+    padding: 1%;
+    text-align: left;
+    position: absolute;
+    left: 8%;
+    top: 10%;
+    background-color:aliceblue;
+    filter: opacity(0.5);
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px; 
+    line-height: 40px;
+    font-size: xx-large;
+}
+#s2{
+    text-indent: 10%;
+    margin-top: 5%;
+}
+#s3{
+    line-height: 25px;
+    margin-left: 10%;
+    font-size: large;
+    margin-bottom:5%;
+}
+.ser-sec{
+    background-image: url("./3rd.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    position: relative;
+    height: 600px;
+    margin-top: 0%;
+}
+#s4{ 
+    border: 2px solid whitesmoke;
+    height: 50px;
+    width: 200px;
+    padding: 1.2%;
+    text-align: left;
+    position: absolute;
+    left: 5%;
+    top: 0%;
+    background-color:aliceblue;
+    filter: opacity(0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px; 
+    line-height: 40px;
+    font-size: xx-large;
+}
+#s5{
+    text-indent: 10%;
+    margin-top: 5%;
+    
+}
+#s6{
+    line-height: 25px;
+    margin-left: 10%;
+    font-size: large;
+    margin-bottom: 5%;
+
+}
+.test-sec{
+    background-image: url("./4th.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    position: relative;
+    /* position: absolute; */
+    height: 600px;
+    margin-top: 0%;
+}
+#s7{
+    border: 2px solid whitesmoke;
+    height: 40px;
+    width: 300px;
+    padding: 2%;
+    text-align: left;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    background-color:rgba(255, 255, 255, o.5);
+    filter: opacity(0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px; 
+    font-size: xx-large;
+}
+.s8{
+    text-indent: 10%;
+    margin-top: 5%;
+}
+.s9{
+    margin-left: 10%;
+    font-size: large;
+    bottom: 0%;
+}
+.ga-sec{
+    background-image: url("./5th.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    position: relative;
+    /* position: absolute; */
+    height: 600px;
+    margin-top: 0%;
+}
+#a1{
+    border: 2px solid whitesmoke;
+    height: 30px;
+    width: 250px;
+    padding: 2%;
+    text-align: left;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    background-color:rgba(255, 255, 255, o.5);
+    filter: opacity(0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px; 
+    font-size: xx-large;
+}
+div{
+    /* border: 2px solid; */
+    position: relative;
+    height: 900px;
+}
+#a2{
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    top: 9%;  
+}
+#a3{
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    top: 9%;
+    left:37%
+}
+#a4{
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    left: 64%;
+    top: 9%;
+ }
+#a5{
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    top: 42%;
+    left: 10%;  
+}
+#a6{
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    top: 42%;
+    left: 37%;
+}
+#a7{
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    top: 42%;
+    left: 64%;
+} 
+#a8{
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    top: 75%; 
+}
+#q2{
+    position: absolute;
+    top: 38%;
+    left: 10%;
+}
+#q3{
+    position: absolute;
+    top: 38%;
+    left: 37.5%;
+}
+#q4{
+    position: absolute;
+    top: 38%;
+    left: 64%;
+}
+#q5{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+#q6{
+    position: absolute;
+    top: 70%;
+    left: 37.5%;
+}
+#q7{
+    position: absolute;
+    top: 70%;
+    left: 65%;
+}
+#q8{
+    position: absolute;
+    top: 103%;
+    left: 10%;
+}
+
+footer{
+    border: 2px solid;
+    width: 100%;
+    height: 150px;
+    margin-top: 10%;
+    position: relative;
+    background-color: black;
+    color: white;
+}
+#q1{
+    margin-top: 6%;
+    position: absolute;
+    left: 25%;
+}

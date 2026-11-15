@@ -1,0 +1,47 @@
+section{
+    border: 2px solid;
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+div{
+    border: 2px solid;
+    height: 100px;
+    width:100px;
+}
+#d1{
+    background-color: blue;
+}
+#d2{
+    background-color: red;
+    /* position: static; */
+    /* top: 20px;
+    bottom: 20px;
+    height: 20px;
+    left: 20px; */
+    position: relative;
+    left:27%;
+    /* right: 0%; */
+    top: 0%;
+     /* bottom:20%;  */
+     position: absolute;
+     left:20%;
+}
+#d3{
+    background-color: crimson;
+    position: relative;
+    left:0%;
+    right:30% ;
+}
+#d4{
+    background-color: blueviolet;
+    position: relative;
+    left: 30%;
+}
+nav{
+    border: 2px solid;
+    background-color:purple;
+    /* position:fixed; */
+    /* width: 90%; */
+    top:0%
+}

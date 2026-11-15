@@ -1,0 +1,41 @@
+div{
+    border: 2px solid;
+    height: 100px;
+    width: 90px;
+    animation-name: demo;
+    animation-duration: 5s;
+    animation-iteration-count: 5; 
+}
+/* div:hover{
+    transform: translate(300px);
+    transition-duration:5s;
+    background-color: aqua;
+    transition-timing-function:ease ;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    transition-timing-function: ease-in-out;
+} */
+@keyframes demo{
+    0%{background-color:red;border-radius:10px;transform: translateX: (80px);transition-duration:10s}
+    10%{background-color:yellow;border-radius:20px;transform: translateX: (30px);transition-duration:10s}
+    20%{background-color:blue;border-radius:20px;transform: translateX: (30px);transition-duration:10s}
+     30%{background-color:green;border-radius:20px;transform: translateX: (30px);transition-duration:10s}
+40%{background-color:yellow;border-radius:20px;transform: translateX: (30px);transition-duration:10s}
+    50%{background-color:yellow;border-radius:20px;transform: translateX: (30px);transition-duration:10s}
+ 60%{background-color:yellow;border-radius:20px;transform: translateX: (30px);transition-duration:10s}
+ 70%{background-color:yellow;border-radius:20px;transform: translateX: (30px);transition-duration:10s}
+80%{background-color:yellow;border-radius:20px;transform: translateX: (30px);transition-duration:10s}
+90%{background-color:yellow;border-radius:20px;transform: translateX: (30px);transition-duration:10s}
+100%{background-color:yellow;border-radius:20px;transform: translateX: (30px);transition-duration:10s}
+} 
+div d1{
+    border: 2px solid;
+    height: 100px;
+    width: 90px;
+    animation-name: demo;
+    animation-duration: 5s;
+    animation-iteration-count: 5; 
+} 
+@keyframes demo1{
+     10%{background-color: aqua;border-radius:40%;}
+}  

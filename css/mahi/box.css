@@ -1,0 +1,32 @@
+.box1{
+    border: 5px solid crimson;
+    width: 200px;
+    padding: 20px;
+    box-sizing: content-box;
+}
+.box2{
+    border: 5px solid green;
+    width: 200px;
+    padding: 20px;
+    box-sizing:border-box;
+    /* box-sizing: inherit; */
+}
+/* ----position ----- */
+.parent{
+    background-color: antiquewhite;
+    border: 5px solid brown;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: darkorange;
+    border: orangered;
+    position:absolute;
+    left: 2px;
+    top: 500px;
+
+}
